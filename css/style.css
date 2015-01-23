@@ -1,0 +1,32 @@
+body, html {
+	min-height: 100%; 
+}
+
+
+body {
+	background-image:url("../img/night.jpeg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+	width: 100%;
+	max-width: 960px; 
+	font-family: 'Lato', sans-serif;
+	color:yellow;
+	font-weight: 100;
+	font-size: 4em; 
+	text-shadow: 5px 1px 0 rgba(0,0,0,.2);
+	margin:40px auto;
+	text-align: center; 
+	/*background: rgba(37, 195, 100, 0.15);*/ 
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 7em;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	color:rgb(180, 102, 56);
+}
